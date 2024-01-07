@@ -1,0 +1,28 @@
+{
+  "name": "mpb_machu-pichu-bank",
+  "version": "0.3.2",
+  "description": "A web application that allows people to register, modify, and delete accounts. You can also request and pay money to other people's banks.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaskedMatters/MPB_Machu-Pichu-Bank.git"
+  },
+  "author": "M. West | Matthew C. West",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaskedMatters/MPB_Machu-Pichu-Bank/issues"
+  },
+  "homepage": "https://github.com/MaskedMatters/MPB_Machu-Pichu-Bank#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
